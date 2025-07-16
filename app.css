@@ -5,11 +5,11 @@
 } */
 
 
- /* a {
+ a {
     text-decoration: none;
-    color: white !important;
+    color: green !important;
     font-weight: 500; 
- } */
+ }
 
  /* a:hover {
     color: #d33682 !important;
@@ -20,26 +20,25 @@
 
 
 .stDownloadButton button {
-    background-color: #f7f7f7;
-    color: #2c2c2c;
-    border: 1.5px solid #222;
-    border-radius: 6px;
-    font-family: 'Fira Code', 'Courier New', monospace;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 8px 16px;
-    box-shadow: 2px 2px 0 #bbb;
+    background-color: #f8f9fa;
+    color: #212529;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+    font-size: 13px;
+    padding: 6px 14px;
     transition: all 0.2s ease-in-out;
 }
 
 .stDownloadButton button:hover {
-    background-color: #1a1a1a !important;
-    color: #39ff14 !important; /* Neon green */
-    border: 1.5px solid #39ff14 !important;
-    box-shadow: 2px 2px 8px rgba(57, 255, 20, 0.4);
-    transform: scale(1.02);
+    background-color: #e9ecef !important;
+    color: #1a1a1a !important;
+    border-color: #adb5bd !important;
+    box-shadow: none;
+    transform: translateY(-1px);  /* slight lift for feedback */
     cursor: pointer;
 }
+
 
 
 
