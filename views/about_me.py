@@ -20,10 +20,10 @@ resume_filename = "cv.pdf"
 
 
 # Adjust the width ratios and add a spacer column between col1 and col2
-col1, spacer, col2 = st.columns([1, 1, 4], gap="small")
+col1, spacer, col2 = st.columns([2, 0.2, 3.8], gap="small")
 
 with col1:
-    st.image("221.jpg" , use_column_width=True)
+    st.image("221.png" , use_container_width=True)
 
 with col2:
     st.title("Caryll Franz M. Cariño", anchor=False)
