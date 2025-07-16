@@ -23,7 +23,7 @@ resume_filename = "cv.pdf"
 col1, spacer, col2 = st.columns([1, 1, 4], gap="small")
 
 with col1:
-    st.image("221.jpg" , width=250)
+    st.image("221.jpg" , use_column_width=True)
 
 with col2:
     st.title("Caryll Franz M. Cariño", anchor=False)
