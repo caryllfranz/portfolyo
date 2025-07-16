@@ -16,7 +16,7 @@ with open(resume_file_path, "rb") as pdf_file:
     pdf_bytes = pdf_file.read()
 
 # Define the file name for the download button
-resume_filename = "cv.pdf"
+resume_filename = "cv_updated.pdf"
 
 
 # Adjust the width ratios and add a spacer column between col1 and col2
